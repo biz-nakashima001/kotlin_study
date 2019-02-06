@@ -1,5 +1,8 @@
-fun main(args:Array<String>){
-    println("Hello kotlin")
-    println(1+2+3)
-    println("お試し長野！")
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun main() {
+    print("sum of 3 and 5 is ")
+    println(sum(3, 5))
 }
